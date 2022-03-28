@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Core">
+      <UniqueIdentifier>{da4907de-98b8-409d-88ce-0b4f998f3b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Core\Memory">
+      <UniqueIdentifier>{e58412df-41d4-46f1-ad67-dc38b044e999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Core\Static">
+      <UniqueIdentifier>{3df9063f-7d0a-4566-b169-b0702e7bbe9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Core\Util">
+      <UniqueIdentifier>{4cfe6b3d-9650-45bc-99ed-1e3cbe9b642e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\PlatformIndependence">
+      <UniqueIdentifier>{7f872f5b-bc5d-4b58-8d22-a9c55f5bbab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Encapsulation">
+      <UniqueIdentifier>{5acf46f7-abab-410a-a157-e66c010ca7e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="static_checks.hpp">
+      <Filter>Headerdateien\Core\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolAllocator.hpp">
+      <Filter>Headerdateien\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="nothing.hpp">
+      <Filter>Headerdateien\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="post_return.hpp">
+      <Filter>Headerdateien\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="StackAllocator.hpp">
+      <Filter>Headerdateien\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUInfo.hpp">
+      <Filter>Headerdateien\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="init.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="TEnotype.hpp">
+      <Filter>Headerdateien\Core\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="simdEnabled.hpp">
+      <Filter>Headerdateien\Core\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="runtimeAssert.hpp">
+      <Filter>Headerdateien\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Destructor.hpp">
+      <Filter>Headerdateien\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultAllocator.hpp">
+      <Filter>Headerdateien\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="simd_types.hpp">
+      <Filter>Headerdateien\Encapsulation</Filter>
+    </ClInclude>
+    <ClInclude Include="attributes.hpp">
+      <Filter>Headerdateien\PlatformIndependence</Filter>
+    </ClInclude>
+    <ClInclude Include="compilers.hpp">
+      <Filter>Headerdateien\PlatformIndependence</Filter>
+    </ClInclude>
+    <ClInclude Include="types.hpp">
+      <Filter>Headerdateien\PlatformIndependence</Filter>
+    </ClInclude>
+    <ClInclude Include="cpuid.hpp">
+      <Filter>Headerdateien\PlatformIndependence</Filter>
+    </ClInclude>
+    <ClInclude Include="forward.hpp">
+      <Filter>Headerdateien\Encapsulation</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
+      <Filter>Headerdateien\Encapsulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>Headerdateien\Encapsulation</Filter>
+    </ClInclude>
+    <ClInclude Include="fill.hpp">
+      <Filter>Headerdateien\Encapsulation</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_cast.hpp">
+      <Filter>Headerdateien\Encapsulation</Filter>
+    </ClInclude>
+    <ClInclude Include="addressof.hpp">
+      <Filter>Headerdateien\Encapsulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ignore.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="is_nonbool_integral.hpp">
+      <Filter>Headerdateien\Encapsulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
